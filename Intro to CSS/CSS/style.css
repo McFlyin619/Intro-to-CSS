@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle&display=swap');
+
+body{
+    font-family: 'News Cycle' , sans-serif;
+}
+
+.main-header {
+    background-color: rgb(81, 25, 167);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.main-header span {
+    font-size: 55px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.main-body {
+   background-color: ivory;
+   padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 90px;    
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 60px;
+    border-bottom:2px solid black;
+    width: 900px;
+}
+
+h2:hover {
+    transform: scale(1.05);
+}
+
+.main-footer {
+    background-color: darkgrey;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-nav {
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+
+p {
+    margin-left: 60px;
+}
+
+a:link {
+    color: rgb(81, 25, 167);
+    margin-left: 60px;
+    
+}
+
+a:visited {
+    color: green;
+    margin-left: 60px;
+}
+
+a:hover {
+    color: black;
+    margin-left: 60px;
+}
